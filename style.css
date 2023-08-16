@@ -1,0 +1,67 @@
+*{
+    font-family: sans-serif;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.day{
+    width: auto;
+    height: auto;
+    background-color: #ff7676;
+    border: 1px solid #fef0f0;
+    margin: 15px;
+}
+.time{
+    width: auto;
+    height: auto;
+    background-color: #ff7676;
+    border: 1px solid #fef0f0;
+    margin: 15px;
+}
+td{
+    background-color: #fef0f0;
+    transition: ease 0.3s;
+}
+
+.mon :nth-child(2){
+    background-color: pink;
+}
+
+.tue :nth-child(3){
+    background-color: pink;
+}
+.wed :nth-child(4){
+    background-color: pink;
+}
+.thu :nth-child(5){
+    background-color: pink;
+}
+.fri :nth-child(6){
+    background-color: pink;
+}
+.sat :nth-child(7){
+    background-color: pink;
+}
+.sun :nth-child(8){
+    background-color: pink;
+}
+tr{
+    background-color: #fef0f0;
+    transition: ease 0.3s;
+}
+h1:hover{
+    font-size: 40px;
+    transition: 3s;
+    font-style: italic;
+}
